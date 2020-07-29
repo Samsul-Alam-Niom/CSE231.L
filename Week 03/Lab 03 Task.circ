@@ -69,72 +69,34 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-anchor facing="east" height="6" width="6" x="157" y="37"/>
     </appear>
     <wire from="(520,340)" to="(640,340)"/>
-    <wire from="(530,450)" to="(530,460)"/>
-    <wire from="(180,450)" to="(500,450)"/>
-    <wire from="(500,440)" to="(550,440)"/>
-    <wire from="(500,440)" to="(500,450)"/>
     <wire from="(180,110)" to="(180,450)"/>
-    <wire from="(500,140)" to="(500,170)"/>
     <wire from="(180,80)" to="(180,110)"/>
-    <wire from="(510,400)" to="(550,400)"/>
     <wire from="(60,80)" to="(60,240)"/>
-    <wire from="(520,160)" to="(550,160)"/>
     <wire from="(710,480)" to="(730,480)"/>
-    <wire from="(380,140)" to="(410,140)"/>
     <wire from="(320,190)" to="(340,190)"/>
     <wire from="(640,340)" to="(640,500)"/>
-    <wire from="(520,420)" to="(550,420)"/>
-    <wire from="(500,170)" to="(520,170)"/>
-    <wire from="(350,110)" to="(350,150)"/>
     <wire from="(380,100)" to="(380,140)"/>
-    <wire from="(320,180)" to="(470,180)"/>
     <wire from="(550,180)" to="(620,180)"/>
     <wire from="(120,80)" to="(120,260)"/>
-    <wire from="(420,140)" to="(500,140)"/>
-    <wire from="(510,160)" to="(510,400)"/>
-    <wire from="(470,430)" to="(550,430)"/>
     <wire from="(830,350)" to="(840,350)"/>
-    <wire from="(520,100)" to="(520,160)"/>
-    <wire from="(470,180)" to="(470,430)"/>
     <wire from="(120,260)" to="(120,450)"/>
-    <wire from="(320,140)" to="(380,140)"/>
     <wire from="(120,260)" to="(370,260)"/>
-    <wire from="(420,140)" to="(420,460)"/>
-    <wire from="(320,170)" to="(370,170)"/>
-    <wire from="(410,140)" to="(410,160)"/>
     <wire from="(690,450)" to="(730,450)"/>
     <wire from="(60,240)" to="(60,450)"/>
-    <wire from="(520,170)" to="(520,190)"/>
     <wire from="(180,110)" to="(350,110)"/>
-    <wire from="(420,460)" to="(530,460)"/>
     <wire from="(520,190)" to="(620,190)"/>
-    <wire from="(520,340)" to="(520,420)"/>
     <wire from="(550,160)" to="(550,180)"/>
     <wire from="(710,480)" to="(710,500)"/>
-    <wire from="(370,170)" to="(370,260)"/>
-    <wire from="(320,160)" to="(410,160)"/>
-    <wire from="(530,450)" to="(550,450)"/>
-    <wire from="(320,150)" to="(350,150)"/>
     <wire from="(60,240)" to="(340,240)"/>
     <wire from="(690,350)" to="(690,450)"/>
-    <wire from="(410,140)" to="(420,140)"/>
     <wire from="(380,100)" to="(520,100)"/>
-    <wire from="(510,160)" to="(520,160)"/>
     <wire from="(640,500)" to="(710,500)"/>
-    <wire from="(340,190)" to="(340,240)"/>
     <wire from="(690,350)" to="(830,350)"/>
-    <wire from="(540,410)" to="(550,410)"/>
     <comp loc="(740,410)" name="IC7411"/>
-    <comp lib="6" loc="(453,130)" name="Text">
-      <a name="text" val="B'"/>
-    </comp>
     <comp loc="(650,120)" name="IC 4075"/>
     <comp loc="(580,380)" name="IC 4075"/>
     <comp lib="6" loc="(271,224)" name="Text">
       <a name="text" val="IC 7404 Hex Inverter"/>
-    </comp>
-    <comp lib="6" loc="(443,196)" name="Text">
-      <a name="text" val="A'"/>
     </comp>
     <comp lib="6" loc="(58,53)" name="Text">
       <a name="text" val="A"/>
@@ -155,6 +117,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="6" loc="(360,481)" name="Text">
+      <a name="text" val="1st Canonical Form"/>
+    </comp>
     <comp loc="(270,190)" name="IC 7404 Hex Inverter"/>
     <comp lib="6" loc="(119,48)" name="Text">
       <a name="text" val="B"/>
@@ -171,12 +136,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="6" loc="(637,124)" name="Text">
       <a name="text" val="IC4075 1"/>
-    </comp>
-    <comp lib="6" loc="(453,90)" name="Text">
-      <a name="text" val="C'"/>
-    </comp>
-    <comp lib="6" loc="(351,412)" name="Text">
-      <a name="text" val="1st Canonical Form"/>
     </comp>
   </circuit>
   <circuit name="IC7411">
